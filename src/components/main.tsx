@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLogin } from "../context/LoginContext";
-
+import Test from "./test";
 // Tipo para cada tarefa
 type Task = {
   text: string;
@@ -131,6 +131,7 @@ export default function Main() {
           </h2>
         )}
       </div>
+      <Test />
     </div>
   );
 }
